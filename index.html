@@ -4,8 +4,12 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap" rel="stylesheet">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="stylesheet" href="css/styles.css">
+
   <title>Frontend Mentor | Order summary card</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
@@ -15,29 +19,34 @@
   </style>
 </head>
 <body>
-  <!-- <img src="images/pattern-background-desktop.svg" alt="background"> -->
-    <main class="card">
-      <div class="top">
-        <img src="" alt="dance-img">
-      </div>
-      <div class="header">
-        <h1>Order Summary</h1>
-        <p>You can now listen to millions of songs, audiobooks, and podcasts on any
-          device anywhere you like!</p>
-      </div>
-      <div class="subscription">
-        <img src="" alt="icon-music">
-        <h2>Annual Plan</h2>
-        <p>$59.99/year</p>
-        <a href="#">Change</a>
-      </div>
-      <div class="payment">
-        <a href="#">Proceed to Payment</a>
-      </div>
-      <div class="cancel">
-        <a href="#">Cancel Order</a>
-      </div>
-    </main>
+  <main class="card">
+
+    <div class="top">
+      <img class="dance-img" src="images/illustration-hero.svg" alt="dance-img">
+    </div>
+
+    <div class="header">
+      <h1>Order Summary</h1>
+      <p class="grey-p">You can now listen to millions of songs, audiobooks, and podcasts on any
+        device anywhere you like!</p>
+    </div>
+
+    <div class="subscription">
+      <img class="music-img" src="images/icon-music.svg" alt="icon-music">
+      <h2>Annual Plan</h2>
+      <p class="price-p">$59.99/year</p>
+      <a href="#" class="change-a">Change</a>
+    </div>
+
+    <div class="payment">
+      <a href="#" class="payment-a">Proceed to Payment</a>
+    </div>
+
+    <div class="cancel">
+      <a href="#" class="cancel-a">Cancel Order</a>
+    </div>
+
+  </main>
   <footer>
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
